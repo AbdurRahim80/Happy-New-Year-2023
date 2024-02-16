@@ -1,0 +1,140 @@
+/* Google font here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+/* Banner section start here */
+.banner {
+    width: 1100px;
+    height: 600px;
+    background-image: url("resource/Banner\ Image.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.banner_shadow {
+    width: 1100px;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 1%, rgba(7, 10, 17, 0.00) 100%);
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 30px;
+    position: relative;
+}
+.banner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFF;
+    font-family: "Merriweather";
+    line-height: 25px;
+
+}
+.banner_text p {
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner_text h2 {
+    font-size: 72px;
+    font-weight: 900;
+}
+/* Banner section end here */
+
+/* off section start here  */
+
+.off{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    font-family: "Inte";
+    margin-bottom: 120px;
+}
+.off h1 {
+    font-size: 75px;
+    font-weight: 709000;
+    color: #F00;
+
+}
+.off p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #F00;
+    
+    
+}
+.off h2 {
+    font-size: 37px;
+    font-weight: 900;
+    color: #070211;
+    margin-top: -5px;
+    
+}
+
+/* off section end here  */
+
+/* welcome section start here  */
+.welcome{
+    width: 1100px;
+    background-image: url("resource/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+
+}
+.welcome-shadow{
+    width: 1100px;
+    height: 500px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);  
+    
+}
+.welcome-contant{
+    width: 1100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.welcome-text{
+    width: 60%;
+    color: #FFF;
+    
+    
+}
+.welcome-text h2{
+    font-family: "Merriweather";
+    font-size: 60px;
+    font-weight: 900;
+
+}
+.welcome-text p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Inter";
+
+}
+.welcome-text button{
+    color: purple;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Inter";  
+    padding: 5px;
+    border-radius: 8px;
+}
+.welcome-img{
+    width: 30%;
+}
+
+
+
+
