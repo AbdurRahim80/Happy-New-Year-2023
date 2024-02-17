@@ -440,7 +440,7 @@
     width: 400px;
     border: none;
     height: 59px;
-    border-radius: 50px  0px 0px 50px;
+    border-radius: 50px 0px 0px 50px;
     background: #FFF;
     font-size: 20px;
     padding-left: 20px;
@@ -459,8 +459,60 @@
     border: none;
     background: #F00;
 }
+
 /* subscribe section end here  */
 
 /* footer section start here  */
+.footer {
+    height: 380px;
+    background: #070211;
+    padding: 120px 60px;
+}
+
+.footer-contant-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contant-1 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.footer-contant-1 p {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-contant-2 {
+    text-align: center;
+    margin: 60px auto;
+}
+.footer-contant-2 img {
+    padding: 5px;
+}
+
+.footer-contant-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.hr{
+    height:2px;
+    background-color: #292531;
+    border: none;
+}
+
 
 /* footer section end here  */
