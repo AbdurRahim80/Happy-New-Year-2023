@@ -385,6 +385,18 @@
 
 }
 
+.portfolio-col-1 div img:hover {
+    border: 2px solid rgb(115, 255, 0);
+    border-radius: 10px;
+}
+
+.portfolio-col-2 div img:hover {
+    border: 2px solid rgb(115, 255, 0);
+
+    border-radius: 10px;
+
+}
+
 .portfolio-col-2 {
     display: flex;
     justify-content: space-between;
@@ -396,3 +408,59 @@
 }
 
 /* portfolio section end here  */
+
+/* subscribe section start here  */
+.sub-sec {
+    height: 550px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sub-sec h3 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.sub-sec p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sub-sec .email {
+    width: 400px;
+    border: none;
+    height: 59px;
+    border-radius: 50px  0px 0px 50px;
+    background: #FFF;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.sub-sec .sub-btn {
+    width: 150px;
+    height: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+}
+/* subscribe section end here  */
+
+/* footer section start here  */
+
+/* footer section end here  */
